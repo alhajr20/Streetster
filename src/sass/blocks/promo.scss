@@ -1,0 +1,31 @@
+.promo {
+    min-height: 1000px;
+    background: url('../../img/promo.png') center center/cover no-repeat;
+    padding: 0 70px;
+    &__info {
+        max-width: 1120px;
+        margin-top: 427px;
+    }
+    &__name {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 300;
+    }
+    &__descr {
+        font-size: 64px;
+        color: #fff;
+        font-weight: bold;
+        line-height: 60px;
+        margin-top: 5px;
+    }
+    &__more {
+        margin-top: 25px;
+        background-color: black;
+        border: none;
+        padding: 8px 19px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        width: 205px;
+    }
+}

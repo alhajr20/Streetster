@@ -1,0 +1,24 @@
+@import 'libs/bootstrap-reboot.min';
+@import './base/font';
+
+* {
+    font-family: 'FuturaPT', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@import './blocks/header.scss';
+@import './blocks/promo.scss';
+@import './blocks/menu.scss';
+@import './blocks/categories.scss';
+@import './blocks/favorites.scss';
+@import './blocks/info.scss';
+@import './blocks/service.scss';
+@import './blocks/news.scss';
+@import './blocks/subscribe.scss';
+@import './blocks/footer.scss';
+@import './blocks/media/media.scss';

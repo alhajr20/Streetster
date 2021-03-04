@@ -1,0 +1,58 @@
+.categories {
+    padding-top: 120px;
+    &__title {
+        padding-left: 70px;
+        font-weight: bold;
+        font-size: 64px;
+    }
+    &__wrapper {
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-title {
+            margin-top: 25px;
+            font-weight: bold;
+            font-size: 36px;
+            color: rgba(0,0,0, 0);
+            -webkit-text-fill-color: none;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+    }
+    &__item:first-child {
+        width: 856px;
+        height: 319px;
+        background: url('../../img/offroadBg.png') center center/cover no-repeat;
+    }
+    &__item:nth-child(2) {
+        width: 856px;
+        height: 319px;
+        background: url('../../img/roadBg.png') center center/cover no-repeat;
+    }
+    &__item:last-child {
+        width: 856px;
+        height: 319px;
+        background: url('../../img/streetBg.png') center center/cover no-repeat;
+    }
+    &__prev, &__next {
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__prev {
+        left: 10%;
+    }
+    &__next {
+        right: 10%;
+    }
+}

@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0 12px 0;
+    &__logo {
+        cursor: pointer;
+    }
+    &__search {
+        label {
+            position: relative;
+            margin-bottom: 0;
+            i {
+                position: absolute;
+                top: 7px;
+                left: 17px;
+            }
+            input {
+                width: 400px;
+                height: 30px;
+                border: none;
+                border-radius: 15.5px;
+                outline: none;
+                padding: 0 40px;
+            }
+        }
+    }
+    &__right {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cart {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 26px;
+        margin-right: 35px;
+    }
+    &__hamburger {
+        color: #fff;
+        font-size: 26px;
+        cursor: pointer;
+    }
+}
